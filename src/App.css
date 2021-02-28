@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+.container {
+    padding: 0 1rem;
+}
+
+.btn{
+    display: inline-block;
+    border: none;
+    background-color: #555555;
+    color: #ffffff;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #666666;
+}
+.navlink {
+    color: aquamarine;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: .5s ease all;
+}
+.navlink:hover {
+    background-color: aquamarine;
+    border-radius: 10px;
+    color: #333333;
+}
